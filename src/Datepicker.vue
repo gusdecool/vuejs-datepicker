@@ -1,5 +1,5 @@
 <template>
-  <div class="datepicker" :class="wrapperClass">
+  <div class="vuejs-datepicker" :class="wrapperClass">
     <input
         :type="inline ? 'hidden' : 'text'"
         :class="inputClass"
@@ -719,7 +719,7 @@ $width = 300px
 *
     box-sizing border-box
 
-.datepicker
+.vuejs-datepicker
     position relative
 
 .calendar
