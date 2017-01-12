@@ -23,7 +23,8 @@
     "dev": "webpack-dev-server --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "test": "karma start test/karma.conf.js --single-run",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "vue": "^1.0.0",
